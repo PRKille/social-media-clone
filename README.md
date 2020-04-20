@@ -4,7 +4,10 @@
 
 #### By Benjamin Thom, Patrick Kille, and Katy Solovewicz
 
+## Components Hierarchy
 
+
+![Components](public/SocialMediaHeirChart.png)
 
 ## Setup/Installation Requirements
 
