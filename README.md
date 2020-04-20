@@ -7,7 +7,8 @@
 ## Components Hierarchy
 
 
-![Components](public/SocialMediaHeirChart.png)
+![Components](public/img/components-hierchy.png)
+![Components](public/img/components-wireframe.png)
 
 ## Setup/Installation Requirements
 
