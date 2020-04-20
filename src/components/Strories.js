@@ -1,9 +1,20 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-function Stories(){
+function Stories(props){
   return (
-  <p>Lorem ipsem this is what we think Stories ourselves.</p>
+    <React.Fragment>
+      <img src={props.img} alt={props.name}></img>
+      <p>{props.name}</p>
+      <p>{PropTypes.storyText}</p>
+    </React.Fragment>
   );
+}
+
+ContactLink.propTypes = {
+  img: PropTypes.string,
+  name: PropTypes.string,
+  storyText: PropTypes.string
 }
 
 export default Stories;
