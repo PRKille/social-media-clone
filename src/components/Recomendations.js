@@ -1,5 +1,6 @@
 import React from "react";
 import ContactLink from "./ContactLink";
+import { Card } from 'antd';
 
 const masterRecommendations = [
   {
@@ -22,15 +23,17 @@ const masterRecommendations = [
 function Recommendations(){
   return (
     <React.Fragment>
-      <h2>Recommended Friends</h2>
-      <hr/>
-      {masterRecommendations.map((contactLink, index) => 
-        <ContactLink
-        img={contactLink.img}
-        name={contactLink.name}
-        link={contactLink.link}
-        key={index}/>
-      )}
+      <Card style={{ width: 360 }}>
+        <h2>Recommended Friends</h2>
+        <hr/>
+        {masterRecommendations.map((contactLink, index) => 
+          <ContactLink
+          img={contactLink.img}
+          name={contactLink.name}
+          link={contactLink.link}
+          key={index}/>
+        )} 
+      </Card>
     </React.Fragment>
   );
 }

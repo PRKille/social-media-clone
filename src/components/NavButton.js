@@ -2,7 +2,11 @@ import React from "react";
 
 function NavButton(){
   return (
-  <p>Lorem ipsem this is what we think NavButton ourselves.</p>
+    <React.Fragment>
+      <a href="#">Home</a>
+      <a href="#">Notifications</a>
+      <a href="#">Messages</a>
+    </React.Fragment>
   );
 }
 

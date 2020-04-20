@@ -2,7 +2,10 @@ import React from "react";
 
 function Search(){
   return (
-  <p>Lorem ipsem this is what we think Search ourselves.</p>
+    <React.Fragment>
+      <input placeholder="Search"></input>
+      <button>Search</button>
+    </React.Fragment>
   );
 }
 

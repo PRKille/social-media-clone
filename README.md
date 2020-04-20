@@ -52,6 +52,7 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 
 ## Technologies Used
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Ant Design
 
 
 ## License

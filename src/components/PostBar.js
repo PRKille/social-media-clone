@@ -1,9 +1,12 @@
 import React from "react";
+import { Input } from 'antd';
+
+const { Search } = Input;
 
 function PostBar(){
   return (
     <React.Fragment>
-      <p>Form Input Box</p><button>Post!</button>
+      <Search style={{margin: '15px 0 0 0'}} placeholder="Make A Post!" onSearch={value => console.log(value)} enterButton />
     </React.Fragment>
   );
 }
