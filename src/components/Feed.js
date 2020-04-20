@@ -1,8 +1,20 @@
 import React from "react";
+import PostBar from "postBar";
+import Stories from "stories";
 
 function Feed(){
   return (
-  <p>Lorem ipsem this is what we think Feed ourselves.</p>
+    <React.Fragment>
+      <PostBar />
+      <hr />
+      {masterStories.map((stories, index) =>
+      <Stories 
+        img={stories.img}
+        name={stories.name}
+        storyText={stories.storyText}
+        key={index}/>
+      )}
+    </React.Fragment>
   );
 }
 
